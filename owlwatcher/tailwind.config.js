@@ -5,7 +5,14 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        graydark: '#131313',
+        graylight: "#1D1D1D",
+        purplecolor: '#6F00BF',
+        purpledark: "#560093"
+      }
+    },
   },
   plugins: [],
 }
